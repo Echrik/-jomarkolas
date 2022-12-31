@@ -1,0 +1,139 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top:150px;
+    margin-right: 300px;
+    padding-left: 250px;
+    margin-left: 300px;
+    border: 3px;
+    border-color: #6e203c;
+    border-radius: 10px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: 10px;
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: #72213f;
+  }
+
+  
+  .site-header .navbar-nav .nav-link {
+    color: #ffffff;
+    border: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: #ffffff;
+    margin: 3px;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #72213f;
+    border: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    margin: 3px;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+ 
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  .navigalo{
+    margin-top: 30px;
+    text-align: center;
+  }
+
+
+  .btn,btn-outline-info,mb-4{
+  color: #ffffff;
+  background-color: #72213f;
+  border-color: #72213f;
+  font-size: 20px;
+  border-width: 2px;
+  }
+
+  .btn:hover,btn-outline-info,mb-4{
+  color: #72213f;
+  background-color: #ffffff;
+  border-color: #72213f;
+  font-size: 20px;
+  border-width: 2px;
+  }
+
+  #kepikonos{
+    height: 80px;
+    width: 200px;
+  }
+
+  #kepab{
+    height:300px;
+    width: 600px;
+    margin-left: 84px;
+    margin-top: 50px;
+  }
+
+  .infok{
+    text-align: center;
+    font-size: 20px;
+  }

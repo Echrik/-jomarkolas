@@ -1,0 +1,14 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% load static %}
+    <h1 style="text-align: center; font-size:60px;"><b>Amiről az oldal szól:</b></h1>
+    <div class="infok">
+        <div>Ez tulajdonképpen a jófogás neveztű oldalnak a reprodukálása.</div>
+        <div>Lehet nem regisztrált felhasználóként nézni a posztokat,</div>
+        <div>Lehet regisztrálni, be- és kijelentkezni,</div>
+        <div>Lehet regisztrált felhasználóként posztokat létrehozni,</div>
+        <div>Lehet új jelszót kérni, ha esetleg nem emlékszel az előzőre,</div>
+        <div>Lehet a profilodat módosítani, képet, nevet, stb...</div>
+    </div>
+    <img id="kepab" src="{% static '/blog/jomarkolaskesz.png'%}">
+{% endblock content %}
